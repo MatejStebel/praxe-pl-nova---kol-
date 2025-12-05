@@ -4,11 +4,11 @@ print("\nVítejte v plánovači úkolů!\n")
 print("*******************************")
 
 def přidat_úkol():
-    název = input("Zadejte název úkolu: ")
-    předmět = input("Zadejte předmět: ")
+    název = input("\nZadejte název úkolu: ")
+    předmět = input("\nZadejte předmět: ")
     datum_odevzdání = input("Zadejte datum odevzdání (DD-MM-RRRR): ")
     úkoly.append({"název": název, "předmět": předmět, "datum_odevzdání": datum_odevzdání})
-    print("Úkol přidán.")
+    print("\nÚkol přidán.")
 
 def zobrazit_úkoly():
     if not úkoly:
