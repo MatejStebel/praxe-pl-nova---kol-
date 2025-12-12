@@ -3,23 +3,20 @@ button a{
     text-decoration: none;;
 }
 h1 {
-    color: blue;
     text-align: center;
-    font-size: 50px;
-}
-h2 {
-    color: green;
-    font-size: 40px;
+    font-size: 80px;
 }
 button {
     font-size: 20px;
+    font-family: 'Bitcount Prop Double Ink', sans-serif;
+    margin: 5px;
+    width: 300px;
+    background-color: turquoise;
 }
 body {
     font-family: 'Bitcount Prop Double Ink', sans-serif;
-    margin: 20px;
-}
-button {
-    font-family: 'Bitcount Prop Double Ink', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 table{
     text-align: center;
@@ -31,4 +28,26 @@ table{
 pre{
     font-family: 'Bitcount Prop Double Ink', sans-serif;
     font-size: 20px;
+}
+#odkazy{
+    width: full;
+    height: 50px;
+    margin: 0;
+    padding-top: 10px;
+    border: none;
+    background-color: blueviolet;
+    text-align: center;
+}
+#github {
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+}
+#form{
+    margin-left: 20px;
+    font-size: 20px; 
+}
+p{
+    font-size: 20px;
+    margin-left: 20px;
 }
