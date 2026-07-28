@@ -1,3 +1,10 @@
+import sys
+import kivy
+from kivy.resources import resource_add_path
+
+if getattr(sys, 'frozen', False):
+    resource_add_path(sys._MEIPASS)
+    
 import os
 from kivy.core.window import Window
 from kivy.clock import Clock
